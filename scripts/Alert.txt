@@ -1,9 +1,0 @@
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
---
-game.StarterGui:SetCore("SendNotification",  {
- Title = "DandySploit :3";
- Text = "Loading... Please wait";
- Duration = math.huge;
- Button1 = "OK";
-})
